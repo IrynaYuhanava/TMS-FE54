@@ -51,7 +51,7 @@
 .design-content-button {
     display: block;
     border: 2px solid #FFF;
-    padding: 20px 0px;
+    padding: 15px 0px;
     width: 370px;
     height: 58px;
     color: #FFF;
@@ -64,4 +64,3 @@
     text-transform: capitalize;  
     margin: 0 auto;
   }
-
