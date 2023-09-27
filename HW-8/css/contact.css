@@ -1,0 +1,125 @@
+.contact {
+    padding: 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-content h2 {
+    padding: 54px 0;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.contact-title-section {
+    position: relative;
+  }
+  
+  .contact-title-section::before {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    bottom: 0;
+    left: calc(50% - 85px);
+  }
+
+.contact-content h5 {
+    margin: 40px 0 89px;
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 30px) / 2);
+}
+
+.contact-form-group {
+    margin-bottom: 50px;
+    width: 570px;
+    position: relative;
+  }
+  
+  input,
+  textarea {
+    outline: none;
+    border: none;
+    padding-bottom: 16px;
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  textarea{
+    width: 570px;
+    height: 200px;
+    resize: none;
+  }
+  
+  
+  .contact-form-group::before {
+    position: absolute;
+    content: "";
+    width: 570px;
+    height: 1px;
+    background: #BDBDBD;
+    bottom: 0;
+  }
+  
+  
+  .contact button {
+    
+    border: none;
+    padding: 15px;
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 auto;
+  }
+  
+  .contact button:hover {
+    background: #AB4949;
+  }
+  
+  .contact button:active {
+    background: #EC7979;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
+  }
+  

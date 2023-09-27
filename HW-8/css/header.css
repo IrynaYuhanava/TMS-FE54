@@ -1,0 +1,40 @@
+  .header {
+    background: black;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-left: -50px;
+    width: 183.099px;
+    height: 74.854px;
+  }
+  
+  .navigation{
+    display: inline-block;
+  }
+  
+  .navigation-list__item {
+    display: inline-block;
+    text-align: center;
+    width: calc(570px / 5);
+    padding: 28px 0;
+  }
+  
+  .navigation-list__item a {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  
+  
+  
